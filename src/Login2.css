@@ -1,0 +1,31 @@
+.section-color{
+    background-color: #2a9df4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-color .div1{
+    background-color: #fff;
+    height: auto;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.l{
+    text-align: center;
+}
+.section-color .left{
+    margin-left: 20px;
+}
+.section-color .p{
+    padding: 15px;
+    color: #fff;
+    background-color: #03c04a;
+    width: 53%;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}

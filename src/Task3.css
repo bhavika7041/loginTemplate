@@ -1,0 +1,61 @@
+.section-color{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.section-color .parag {
+    margin: 1.3rem 0;
+    text-align: center;
+}
+.section-color .head{
+    text-align: center;
+}
+.section-color .main-services{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section-color .services{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    /* border: 1px solid; */
+    padding: 20px 15px;
+}
+.section-color .services .cad{
+    /* border: 1px solid; */
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+}
+
+.section-color .services .cad a{
+    
+    text-decoration: none;
+}
+.section-color .services .colr{
+    color: #42b7ca;
+}
+.section-color .services .service2{
+    color: #425fca;
+}
+.section-color .services .service3{
+    color: #9c42ca;
+}
+.section-color .services .service-1:hover{
+    border: 2px solid #42b7ca;
+    transition: .25s;
+}
+.section-color .services .service-2:hover{
+    border: 2px solid #425fca;
+    transition: .25s;
+}
+.section-color .services .service-3:hover{
+    border: 2px solid #9c42ca;
+    transition: .25s;
+}

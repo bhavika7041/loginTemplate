@@ -1,0 +1,87 @@
+/* single form */
+.section-color{
+    background-color: #f5e0e5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-color .section-div{
+    background-color: #ffff;
+    min-height: 300px;
+    width: 400px;
+    padding: 30px 40px;
+    border-radius: 12px;
+}
+.section-color .section-div .description{
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+}
+.section-color .section-div .title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+} 
+.section-color .section-div .input,
+.section-color .section-div .textarea{
+    background-color:  #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+    width: 93%;
+    border: none;
+    resize: none;
+    margin-bottom: 2%;
+}
+
+.section-color .section-div .input::placeholder,
+.section-color .section-div .textarea::placeholder{
+    font-weight: bold;
+    color: #aeb4b9;
+}
+.section-color .section-div .input:focus,
+.section-color .section-div .textarea:focus{
+    outline: none;
+    border-color: #f33fb0;
+    box-shadow: 0 0 8px #f33fb0;
+}
+.section-color .section-div .textarea{
+    height: 150px;
+}
+.section-color .section-div .btn-container{
+    text-align: center;
+}
+.section-color .section-div .btn{
+    border: none;
+    color: #ffff;
+    background-color: #f23292;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+/* 
+/* dusra form */
+/* .section-color-2{
+    background-color: #f5e0e5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* 
+.section-color-2 .section-div{
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+
+/* } */
+
+
+/* * div , section inki heigh na 0 hoti ha or width 100% */
+
+/**/

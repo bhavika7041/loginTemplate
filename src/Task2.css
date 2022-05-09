@@ -1,0 +1,68 @@
+.section-color{
+    background-color: #edf2f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-color .section-code{
+    background-color: #fff;
+    padding: 30px 32px;
+    border-radius: 5px;
+    line-height: 24px;
+    height: auto;
+    min-width:  400px;
+    box-shadow: 3px 1px 8px rgba(255,255,255,.5);
+}
+.section-color .section-code .input{
+    background-color: #edf2f7;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 93%;
+    margin-top: 10px;
+    outline: none;
+}
+.section-color .section-code .input:focus{
+    border-bottom: 1px solid orange;
+}
+
+.section-color .section-code .btn{
+    background-color: hsl(218, 17%, 35%);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    /* border-color: hsla(0, 0%, 0%, 0);
+    border-style: solid;
+    border-width: 1px; */
+    border: 1px solid hsla(0, 0%, 0%, 0);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    margin-left: 20px;
+}
+
+.section-color .section-code .btn:hover{
+    background-color: hsl(218, 17%, 24%);
+}
+
+.mb{
+    margin-bottom: 1rem;
+}
+
+.text-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+/* 
+    How many ways of color we can give (kitne trika sa color desktaha csss ma) ? 
+    1. solid color (red,green,black)
+    2. Hash Color code (#fff,#000)
+    3. RGB (Red,Green,Blue)
+    4. RGBA (Red,Green,Blue,Alpha) :  alha ki value 0 - 1 yeh ek trika sa color ki opacity hoti ha 
+    5. HSL (Hue,Saturation,Lightness) :: km use hota ha 
+*/

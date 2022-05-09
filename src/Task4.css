@@ -1,0 +1,63 @@
+.section-color{
+    background-color: hsl(0, 0%, 90%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-color .head {
+    text-align: center;
+}
+.section-color .div-1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.section-color .div-1 .d{
+        flex:1;
+        margin-right: 25px;
+}
+.d-block{
+    display: block;  
+}
+.section-color .section2{
+    background-color: #fff;
+    height: auto;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.section-color .btn{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding:1%;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+.section-color .btn:hover{
+    background-color: rgb(131, 106, 106);
+    cursor: pointer;
+}
+.section-color .input{
+    width: 100%;
+}
+.section-color .div-1 label , 
+.section-color .div2 label{
+   display: block;  
+   margin-bottom: 2%; 
+}
+.section-color .div2{
+    margin-top: 10px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+input, textarea{
+    border: none;
+    background-color: hsl(0, 0%, 90%); ;
+}
